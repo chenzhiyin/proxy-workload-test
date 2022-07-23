@@ -1,0 +1,12 @@
+{
+    "model_name": "log1p",
+    "version": "ori",
+    "args": {
+        "max_threads_num": 4,
+        "intra_op": 1,
+        "inter_op": 1,
+        "interval": 5
+    },
+    "libraries": [],
+    "inputs": "shape(10000) random(-1,10000)"
+}
